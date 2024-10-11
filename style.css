@@ -1,0 +1,39 @@
+/*
+=================================================
+GLOBAL
+=================================================
+*/
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1, h2, h4, h5, h6{
+    color:#de1e1f;
+    font-weight:700;
+}
+h1{
+    font-size:42px;
+}
+h3{
+    color:#666666;
+    font-weight:100;
+}
+
+/*
+=================================================
+FOOTER
+=================================================
+*/
+.bottom_footer {
+    background: #141414;
+    color: #838383;
+    font-size: 11px;
+  }
+  footer {
+    font-size: 0.8rem;
+  }
+  footer .text-light {
+    color: #838383 !important;
+  }
+  footer a {
+    text-decoration: none !important;
+  }
