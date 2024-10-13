@@ -3,19 +3,40 @@
 GLOBAL
 =================================================
 */
-body{
-    font-family: 'Poppins', sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
 }
-h1, h2, h4, h5, h6{
-    color:#de1e1f;
-    font-weight:700;
+h1,
+h2,
+h4,
+h5,
+h6 {
+  color: #de1e1f;
+  font-weight: 700;
 }
-h1{
-    font-size:42px;
+h1 {
+  font-size: 42px;
 }
-h3{
-    color:#666666;
-    font-weight:100;
+h3 {
+  color: #666666;
+  font-weight: 100;
+}
+a {
+  color: #de1e1f;
+  text-decoration: none;
+}
+p {
+  color: #6c6c89;
+}
+.navbar {
+  text-transform: uppercase;
+}
+.text-shadow {
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+}
+.img-shadow,
+.btn-shadow {
+  filter: drop-shadow(1px 1px 5px rgba(0, 0, 0, 0.25));
 }
 
 /*
@@ -24,16 +45,101 @@ FOOTER
 =================================================
 */
 .bottom_footer {
-    background: #141414;
-    color: #838383;
-    font-size: 11px;
-  }
-  footer {
-    font-size: 0.8rem;
-  }
-  footer .text-light {
-    color: #838383 !important;
-  }
-  footer a {
-    text-decoration: none !important;
-  }
+  background: #141414;
+  color: #838383;
+  font-size: 11px;
+}
+footer {
+  margin-top: 44px;
+  font-size: 0.8rem;
+}
+footer .text-light {
+  color: #838383 !important;
+}
+footer a {
+  text-decoration: none !important;
+}
+
+/*
+=================================================
+HOME PAGE
+=================================================
+*/
+.search {
+  max-width: 650px;
+  margin: 75px auto 50px auto;
+}
+.search input {
+  font-size: 32px;
+  border-radius: 0;
+  margin-right: 0;
+  font-weight: 100;
+}
+.search button {
+  margin: 0;
+  border-radius: 0;
+}
+.home .content-item {
+  border: 1px solid #cccccc;
+  margin-bottom: 32px;
+}
+.image-container {
+  width: 100%; /* Fixed width */
+  height: 200px; /* Fixed height */
+  overflow: hidden; /* Ensures content outside the box is not visible */
+}
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* This crops the image while maintaining aspect ratio */
+}
+.details-container {
+  padding: 10px;
+  height: 100px;
+  color: #666666;
+}
+.details-container a {
+  color: #666666;
+}
+.details-container h2 {
+  font-size: 20px;
+}
+.details-container h3 {
+  font-size: 18px;
+  display: inline-block;
+}
+.details-container {
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Limit to 3 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis; /* Show ellipsis for truncated text */
+}
+/*
+=================================================
+PROFILE PAGE
+=================================================
+*/
+.profile_page {
+  padding: 100px 0;
+}
+.profile_page i {
+  font-size: 32px;
+}
+.profile_page .btn {
+  margin-bottom: 22px;
+}
+.profile_img_container {
+  width: 100%; /* Fixed width */
+  height: 640px; /* Fixed height */
+  overflow: hidden; /* Ensures content outside the box is not visible */
+  border-radius: 5px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.profile_img_container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* This crops the image while maintaining aspect ratio */
+}

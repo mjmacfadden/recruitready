@@ -50,11 +50,11 @@
 <body>
 
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container-fluid">
       <!-- Logo Image in the top left -->
       <a class="navbar-brand" href="index.php">
-        <img src="img/recruit_ready_athletics_logo.webp" alt="" height="30" class="d-inline-block align">
+        <img src="img/recruit_ready_athletics.webp" alt="Recruit Ready Athletics" height="30" class="d-inline-block align">
       </a>
       <!-- Navbar toggler for responsive view -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
