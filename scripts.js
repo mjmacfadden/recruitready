@@ -104,6 +104,20 @@ const contentArray = [
   // Add more objects as needed
 ];
 
+// Function to detect if PHP or static HTML environment
+function isPhpEnvironment() {
+  return window.location.pathname.includes(".php");
+}
+
+// Function to dynamically generate the link based on environment
+function generateProfileLink(itemId) {
+  if (isPhpEnvironment()) {
+    return `profile.php?id=${itemId}`;
+  } else {
+    return `profile.html?id=${itemId}`; // Assuming static HTML files follow this naming convention
+  }
+}
+
 // Function to render content dynamically
 function renderContent() {
   const contentContainer = document.getElementById("content-container");
@@ -113,7 +127,7 @@ function renderContent() {
     contentHTML += `
       <div class="col-md-4">
         <div class="content-item" id="item-${item.id}">
-          <a href="profile.html?id=${item.id}">
+          <a href="${generateProfileLink(item.id)}">
             <div class="image-container">
               ${item.image}
             </div>
@@ -168,48 +182,63 @@ function getUrlParameter(name) {
   return urlParams.get(name);
 }
 
-// Function to handle search
-function handleSearch() {
-  const searchInput = document.getElementById("searchInput");
-  searchInput.addEventListener("input", function () {
-    const query = searchInput.value.toLowerCase();
-    const filteredContent = contentArray.filter(
-      (item) =>
-        item.name.toLowerCase().includes(query) ||
-        item.sport.toLowerCase().includes(query) ||
-        item.university.toLowerCase().includes(query)
-    );
 
-    renderFilteredContent(filteredContent);
-  });
-}
+
+// Function to handle search input and filter the content array
+const inputField = document.getElementById('userInput');
+
+// Add an event listener for the 'input' event to capture user input as they type
+inputField.addEventListener('input', function(event) {
+  // Save the user input to a variable
+  const userInputValue = event.target.value;
+
+  // Log the variable to the console
+  console.log("Captured input:", userInputValue);
+  const filteredContent = contentArray.filter(
+    (item) =>
+      item.name.toLowerCase().includes(userInputValue) || // Match against name
+      item.sport.toLowerCase().includes(userInputValue) || // Match against sport
+      item.university.toLowerCase().includes(userInputValue) || // Match against university
+      item.division.toLowerCase().includes(userInputValue),
+  );
+  renderFilteredContent(filteredContent); // Render the filtered results
+  
+});
+
 
 // Function to render filtered content based on search query
 function renderFilteredContent(filteredContent) {
   const contentContainer = document.getElementById("content-container");
   let contentHTML = "";
 
-  filteredContent.forEach((item) => {
-    contentHTML += `
-      <div class="col-md-4">
-        <div class="content-item" id="item-${item.id}">
-          <a href="profile.html?id=${item.id}">
-            <div class="image-container">
-              ${item.image}
-            </div>
-            <div class="details-container">
-              ${item.name}
-              ${item.university}
-              ${item.division}
-              ${item.sport}
-              ${item.paragraph}
-            </div>
-          </a>
+  // Check if there are any matching results
+  if (filteredContent.length === 0) {
+    contentHTML = `<p class="text-center">No results found for your search.</p>`;
+  } else {
+    // Iterate over the filtered content and build the HTML structure
+    filteredContent.forEach((item) => {
+      contentHTML += `
+        <div class="col-md-4">
+          <div class="content-item" id="item-${item.id}">
+            <a href="${generateProfileLink(item.id)}">
+              <div class="image-container">
+                ${item.image}
+              </div>
+              <div class="details-container">
+                ${item.name}
+                ${item.university}
+                ${item.division}
+                ${item.sport}
+                ${item.paragraph}
+              </div>
+            </a>
+          </div>
         </div>
-      </div>
-    `;
-  });
+      `;
+    });
+  }
 
+  // Update the content container with the new HTML
   contentContainer.innerHTML = contentHTML;
 }
 
@@ -217,7 +246,7 @@ function renderFilteredContent(filteredContent) {
 document.addEventListener("DOMContentLoaded", () => {
   if (document.getElementById("content-container")) {
     renderContent();
-    handleSearch();
+    //handleSearch();
   }
 
   if (document.getElementById("detail-container")) {

@@ -6,9 +6,6 @@
     <div class="row" id="detail-container"></div>
 </div>
 
-<!-- Link to the shared JavaScript file -->
-<script src="scripts.js"></script>
-
 <?php 
     include ('footer.php');
 ?>
