@@ -191,7 +191,7 @@ const inputField = document.getElementById('userInput');
 if (inputField) {
   inputField.addEventListener('input', function(event) {
     // Save the user input to a variable
-    const userInputValue = event.target.value;
+    const userInputValue = event.target.value.toLowerCase().trim();
 
     // Log the variable to the console
     console.log("Captured input:", userInputValue);
