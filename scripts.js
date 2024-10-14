@@ -188,23 +188,24 @@ function getUrlParameter(name) {
 const inputField = document.getElementById('userInput');
 
 // Add an event listener for the 'input' event to capture user input as they type
-inputField.addEventListener('input', function(event) {
-  // Save the user input to a variable
-  const userInputValue = event.target.value;
+if (inputField) {
+  inputField.addEventListener('input', function(event) {
+    // Save the user input to a variable
+    const userInputValue = event.target.value;
 
-  // Log the variable to the console
-  console.log("Captured input:", userInputValue);
-  const filteredContent = contentArray.filter(
-    (item) =>
-      item.name.toLowerCase().includes(userInputValue) || // Match against name
-      item.sport.toLowerCase().includes(userInputValue) || // Match against sport
-      item.university.toLowerCase().includes(userInputValue) || // Match against university
-      item.division.toLowerCase().includes(userInputValue),
-  );
-  renderFilteredContent(filteredContent); // Render the filtered results
-  
-});
-
+    // Log the variable to the console
+    console.log("Captured input:", userInputValue);
+    const filteredContent = contentArray.filter(
+      (item) =>
+        item.name.toLowerCase().includes(userInputValue) || // Match against name
+        item.sport.toLowerCase().includes(userInputValue) || // Match against sport
+        item.university.toLowerCase().includes(userInputValue) || // Match against university
+        item.division.toLowerCase().includes(userInputValue),
+    );
+    renderFilteredContent(filteredContent); // Render the filtered results
+    
+  });
+}
 
 // Function to render filtered content based on search query
 function renderFilteredContent(filteredContent) {
