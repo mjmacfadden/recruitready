@@ -13,8 +13,6 @@
           <ul class="list-unstyled">
             <li><a href="index.php" class="text-light">Home</a></li>
             <li><a href="about.php" class="text-light">About</a></li>
-            <li><a href="Templates.php" class="text-light">Templates</a></li>
-            <li><a href="https://mmacfadden.substack.com/" target="_blank" class="text-light">Substack</a></li>
           </ul>
         </div>
         <!-- Column 3 -->
