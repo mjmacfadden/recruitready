@@ -7,34 +7,26 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title><?php echo $page_title ?? 'Recruit Ready Athletics'; ?></title>
+    <title>Recruit Ready Athletics</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- SEO Meta Tags -->
     <meta name="author" content="Recruit Ready Athletics" />
     <meta name="keywords" content="" />
     <!-- Meta Description -->
-    <meta name="description" content="<?php echo $meta_description ?? 'Welcome to Recruit Ready Athletics. Real college athletes. Realtime communication. Real advice.'; ?>" />
+    <meta name="description" content="Welcome to Recruit Ready Athletics. Real college athletes. Realtime communication. Real advice." />
 
     <!-- Open Graph Data -->
-    <?php
-    // Set default Open Graph values, in case they're not defined in individual pages
-    $og_title = isset($og_title) ? $og_title : "Recruit Ready Athletics";
-    $og_description = isset($og_description) ? $og_description : "Real college athletes. Realtime communication. Real advice.";
-    $og_url = isset($og_url) ? $og_url : "https://recruitreadyatheltics.com";
-    $og_image = isset($og_image) ? $og_image : "https://recruitreadyathletics.com/img/og/og_homepage.jpg";
-    $og_type = isset($og_type) ? $og_type : "website";
-    ?>
-    <meta property="og:title" content="<?php echo htmlspecialchars($og_title); ?>" />
-    <meta property="og:description" content="<?php echo htmlspecialchars($og_description); ?>" />
-    <meta property="og:url" content="<?php echo htmlspecialchars($og_url); ?>" />
-    <meta property="og:image" content="<?php echo htmlspecialchars($og_image); ?>" />
-    <meta property="og:type" content="<?php echo htmlspecialchars($og_type); ?>" />
+        <meta property="og:title" content="Recruit Ready Athletics" />
+    <meta property="og:description" content="Real college athletes. Realtime communication. Real advice." />
+    <meta property="og:url" content="https://recruitreadyatheltics.com" />
+    <meta property="og:image" content="https://recruitreadyathletics.com/img/og/og_homepage.jpg" />
+    <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Recruit Ready Athletics" />
     <!-- Twitter Card Data -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="<?php echo htmlspecialchars($og_title); ?>">
-    <meta name="twitter:description" content="<?php echo htmlspecialchars($og_description); ?>">
-    <meta name="twitter:image" content="<?php echo htmlspecialchars($og_image); ?>">
+    <meta name="twitter:title" content="Recruit Ready Athletics">
+    <meta name="twitter:description" content="Real college athletes. Realtime communication. Real advice.">
+    <meta name="twitter:image" content="https://recruitreadyathletics.com/img/og/og_homepage.jpg">
 
     <base href="/recruitready/">
     <!-- Bootstrap 5 CSS -->
@@ -53,7 +45,7 @@
   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container-fluid">
       <!-- Logo Image in the top left -->
-      <a class="navbar-brand" href="index.php">
+      <a class="navbar-brand" href="index.html">
         <img src="img/recruit_ready_athletics.webp" alt="Recruit Ready Athletics" height="30" class="d-inline-block align">
       </a>
       <!-- Navbar toggler for responsive view -->
@@ -64,13 +56,13 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="index.php">Home</a>
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.php">About</a>
+            <a class="nav-link" href="about.html">About</a>
           </li>
           <li class="nav-item me-4">
-            <a class="nav-link" href="contact.php">Contact</a>
+            <a class="nav-link" href="contact.html">Contact</a>
           </li>
         </ul>
         <button class="btn btn-outline-danger" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Request Invite</button>
@@ -92,3 +84,65 @@
         </div>
     </div>
 </div>
+<div class="page_header">
+  <div class="container py-4">
+    <div class="row py-4">
+      <!-- First Row -->
+      <div class="col">
+        <h1 class="text-uppercase">Contact</h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container py-4 mt-4 home">
+    <div class="row py-4 mt-4">
+        <div class="col py-4 mt-4">
+            <h1 class="text-uppercase">Contact</h1>
+            <hp>more sooon...</p>
+
+        </div>
+    </div>
+</div>
+
+ <!-- Footer -->
+ <footer class="bg-dark text-light pt-4">
+    <div class="container py-4">
+      <div class="row">
+        <!-- Column 1 -->
+        <div class="col-md-4 mb-3">
+          <h5>About</h5>
+          <p class="text-light">Recruit Ready matches aspiring collegiate athletes with current collegiate athletes to help navigate the complicated recruitment process.</p>
+        </div>
+        <!-- Column 2 -->
+        <div class="col-md-4 mb-3">
+          <h5>Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="index.html" class="text-light">Home</a></li>
+            <li><a href="about.html" class="text-light">About</a></li>
+          </ul>
+        </div>
+        <!-- Column 3 -->
+        <div class="col-md-4 mb-3">
+          <h5>Contact Us</h5>
+          <ul class="list-unstyled">
+            <li><a href="mailto:recruitready@gmail.com" class="text-light" target="_blank"><i class="bi bi-envelope"></i> recruitreadyathletics@gmail.com</a></li>
+            <li><a href="https://www.instagram.com/recruit_ready" class="text-light" target="_blank"><i class="bi bi-instagram"></i> Instagram</a></li>
+          </ul>
+        </div>
+        
+      </div>
+    </div>
+    <div class="container-fluid bottom_footer pt-3">
+        <div class="row text-end">
+            <p>Copyright © 2024 recruitreadyathletics.com · All Rights Reserved</p>
+        </div>
+    </div>
+  </footer>
+ 
+ 
+        <!-- Bootstrap 5 JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="scripts.js"></script>
+    </body>
+</html>

@@ -28,7 +28,7 @@
     <meta name="twitter:description" content="Real college athletes. Realtime communication. Real advice.">
     <meta name="twitter:image" content="https://recruitreadyathletics.com/img/og/og_homepage.jpg">
 
-    <base href="/">
+    <base href="/recruitready/">
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
@@ -61,32 +61,27 @@
           <li class="nav-item">
             <a class="nav-link" href="about.html">About</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item me-4">
             <a class="nav-link" href="contact.html">Contact</a>
           </li>
         </ul>
+        <button class="btn btn-outline-danger" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Request Invite</button>
       </div>
     </div>
   </nav>
 
-<!-- Modal -->
-<div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-fullscreen">
-      <div class="modal-content">
-        <div class="modal-header">
-          <!-- Close button (X) -->
-          <button type="button" class="btn-close close-btn" data-bs-dismiss="modal" aria-label="Close"></button>
+<!-- Modal structure -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title" id="exampleModalLabel">Would you like to mentor asipiring collegiate athletes?</h3>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdcgXqwBJC5OU2nCCHwn7Iq6jQBBc36hbUsgBtaIR-oBv4C6A/viewform?embedded=true" width="100%" height="870" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            </div>
         </div>
-        <div class="modal-body d-flex justify-content-center align-items-center">
-          <!-- Search Form -->
-          <form class="d-flex" action="search.html" method="GET">
-                <!-- Search Input -->
-                <input class="form-control me-2 searchInput" type="search" placeholder="search..." name="q" id="searchInput" aria-label="Search">
-                <!-- Submit Button -->
-                <button class="btn btn-primary searchSubmit" type="submit">GO</button>
-          </form>
-        </div>
-      </div>
     </div>
 </div>
 <div class="container profile_page">
@@ -100,7 +95,7 @@
         <!-- Column 1 -->
         <div class="col-md-4 mb-3">
           <h5>About</h5>
-          <p>Recruit Ready matches aspiring collegiate athletes with current collegiate athletes to help navigate the complicated recruitment process.</p>
+          <p class="text-light">Recruit Ready matches aspiring collegiate athletes with current collegiate athletes to help navigate the complicated recruitment process.</p>
         </div>
         <!-- Column 2 -->
         <div class="col-md-4 mb-3">
@@ -115,7 +110,7 @@
           <h5>Contact Us</h5>
           <ul class="list-unstyled">
             <li><a href="mailto:recruitready@gmail.com" class="text-light" target="_blank"><i class="bi bi-envelope"></i> recruitreadyathletics@gmail.com</a></li>
-            <li><a href="https://instagram.com/recruitreadyathletics" class="text-light" target="_blank"><i class="bi bi-instagram"></i> Instagram</a></li>
+            <li><a href="https://www.instagram.com/recruit_ready" class="text-light" target="_blank"><i class="bi bi-instagram"></i> Instagram</a></li>
           </ul>
         </div>
         

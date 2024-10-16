@@ -5,7 +5,7 @@
         <!-- Column 1 -->
         <div class="col-md-4 mb-3">
           <h5>About</h5>
-          <p>Recruit Ready matches aspiring collegiate athletes with current collegiate athletes to help navigate the complicated recruitment process.</p>
+          <p class="text-light">Recruit Ready matches aspiring collegiate athletes with current collegiate athletes to help navigate the complicated recruitment process.</p>
         </div>
         <!-- Column 2 -->
         <div class="col-md-4 mb-3">
@@ -20,7 +20,7 @@
           <h5>Contact Us</h5>
           <ul class="list-unstyled">
             <li><a href="mailto:recruitready@gmail.com" class="text-light" target="_blank"><i class="bi bi-envelope"></i> recruitreadyathletics@gmail.com</a></li>
-            <li><a href="https://instagram.com/recruitreadyathletics" class="text-light" target="_blank"><i class="bi bi-instagram"></i> Instagram</a></li>
+            <li><a href="https://www.instagram.com/recruit_ready" class="text-light" target="_blank"><i class="bi bi-instagram"></i> Instagram</a></li>
           </ul>
         </div>
         

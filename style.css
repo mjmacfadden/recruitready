@@ -28,6 +28,9 @@ p {
 .navbar {
   text-transform: uppercase;
 }
+#navbarNav button{
+  text-transform: uppercase;
+}
 .text-shadow {
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
 }
@@ -112,6 +115,23 @@ HOME PAGE
   overflow: hidden;
   text-overflow: ellipsis; /* Show ellipsis for truncated text */
 }
+
+/*
+=================================================
+INTERNAL PAGES
+=================================================
+*/
+.page_header {
+  background-color:#141414;
+  padding-top:72px;
+}
+.page_header h1{
+  color:#FFFFFF;
+}
+.about h2{
+  color:#000000;
+}
+
 /*
 =================================================
 PROFILE PAGE
@@ -122,6 +142,7 @@ PROFILE PAGE
 }
 .profile_page i {
   font-size: 32px;
+  margin-right:15px;
 }
 .profile_page .btn {
   margin-bottom: 22px;
@@ -138,4 +159,37 @@ PROFILE PAGE
   width: 100%;
   height: 100%;
   object-fit: cover; /* This crops the image while maintaining aspect ratio */
+}
+.founder{
+  max-width:200px;
+}
+#detail-container h3{
+  display:inline-block;
+}
+
+/*
+=================================================
+FOOTER
+=================================================
+*/
+footer h5{
+  color:#f1f1f1;
+}
+
+/*
+=================================================
+MODAL
+=================================================
+*/
+.modal-title{
+  font-size:16px ;
+  font-weight:300;
+}
+
+
+@media (max-width: 768px) {
+  /* Your custom styles for small screens here */
+  .profile_img_container {
+    width:100%;
+  }
 }
