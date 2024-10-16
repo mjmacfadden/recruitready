@@ -21,7 +21,7 @@
     $og_title = isset($og_title) ? $og_title : "Recruit Ready Athletics";
     $og_description = isset($og_description) ? $og_description : "Real college athletes. Realtime communication. Real advice.";
     $og_url = isset($og_url) ? $og_url : "https://recruitreadyatheltics.com";
-    $og_image = isset($og_image) ? $og_image : "https://recruitreadyathletics.com/img/og/og_homepage.jpg";
+    $og_image = isset($og_image) ? $og_image : "https://recruitreadyathletics.com/img/og/og_home.jpg";
     $og_type = isset($og_type) ? $og_type : "website";
     ?>
     <meta property="og:title" content="<?php echo htmlspecialchars($og_title); ?>" />
