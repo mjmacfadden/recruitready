@@ -161,10 +161,17 @@ PROFILE PAGE
   object-fit: cover; /* This crops the image while maintaining aspect ratio */
 }
 .founder{
+  background:#f1f1f1;
+}
+.founder img{ 
   max-width:200px;
 }
 #detail-container h3{
   display:inline-block;
+}
+.founder h2,
+.founder h4{
+  color:#000;
 }
 
 /*
