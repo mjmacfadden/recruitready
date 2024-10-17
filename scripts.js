@@ -86,6 +86,23 @@ const contentArray = [
     `,
   },
   {
+    id: 5,
+    image:
+      "<img src='img/athletes/gymnast.jpg' class='img-fluid' alt='Ryan Mitchel'>",
+    name: "<h2>Ryan Mitchel</h2>",
+    university: "<h3>Springfield College</h3>",
+    division: "<h3>D3</h3>",
+    sport: "<h3>Gymnastics</h3>",
+    paragraph:
+      "<p>Ryan Mitchell is a talented gymnast competing for Springfield College in Division III. Hailing from Richmond, Virginia, Ryan began his gymnastics journey at a young age, quickly falling in love with the sport. Known for his exceptional skills on the rings and parallel bars, he has earned multiple accolades in regional competitions and continues to shine on the national stage. Now a sophomore, Ryan is a key member of the Springfield team, consistently contributing to their success with his impressive routines and unwavering determination.</p><p>Ryan is pursuing a degree in Exercise Science, aspiring to work in sports performance and rehabilitation. Off the mat, he dedicates his time to coaching local youth gymnastics programs, inspiring the next generation of athletes. With his commitment to excellence and passion for the sport, Ryan aims to help lead his team to a national championship while paving the way for a successful career in sports.</p>",
+    button:
+      "<a href='https://calendly.com' target='_blank'><button class='btn btn-danger'>Book Now</button>",
+    socialLinks: `
+      <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook danger"></i></a> 
+      <a href="https://www.twitter.com" target="_blank"><i class="bi bi-instagram danger"></i></a>
+    `,
+  },
+  {
     id: 6,
     image:
       "<img src='img/athletes/swimmer.jpg' class='img-fluid' alt='Sophie Coehn'>",

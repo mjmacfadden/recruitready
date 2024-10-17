@@ -8,7 +8,8 @@
         <div class="col">
             <img src="img/recruit_ready_athletics.webp" class="img-fluid mb-4" alt="Recruit Ready">
             <h3>Recruit Ready matches aspiring collegiate athletes with current collegiate athletes to help navigate the complicated recruitment process.<h3>
-            <h3 class="mt-4">If you're a current or recent collegiate athlete, and you'd like to mentor aspiring collegiate atheltes AND get paid for it:</h3>
+            <!--
+            <h3 class="mt-4">If you're a current or recent collegiate athlete, and you'd like to mentor aspiring collegiate atheltes AND get paid for it:</h3>-->
             <button class="btn btn-lg btn-outline-danger my-4" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">REQUEST AN INVITATION</button>
         </div>
     </div>
@@ -36,7 +37,7 @@
     </div>
 </div>
 <div class="container">
-    <div class="row">
+    <div class="row py-4 my-4">
         <h2 class="text-center">FREQUENTLY ASKED QUESTIONS</h3>
         <div class="accordion accordion-flush" id="accordionFlushExample">
             <div class="accordion-item">

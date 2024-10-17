@@ -38,6 +38,9 @@ p {
 .btn-shadow {
   filter: drop-shadow(1px 1px 5px rgba(0, 0, 0, 0.25));
 }
+.danger{
+
+}
 
 /*
 =================================================
@@ -131,6 +134,22 @@ INTERNAL PAGES
 .about h2{
   color:#000000;
 }
+.founder{
+  background:#f1f1f1;
+}
+.founder img{ 
+  max-width:200px;
+}
+#detail-container h3{
+  display:inline-block;
+}
+.founder h2,
+.founder h4{
+  color:#000;
+}
+.founder h3{
+  margin-top:22px;
+}
 
 /*
 =================================================
@@ -160,19 +179,7 @@ PROFILE PAGE
   height: 100%;
   object-fit: cover; /* This crops the image while maintaining aspect ratio */
 }
-.founder{
-  background:#f1f1f1;
-}
-.founder img{ 
-  max-width:200px;
-}
-#detail-container h3{
-  display:inline-block;
-}
-.founder h2,
-.founder h4{
-  color:#000;
-}
+
 
 /*
 =================================================
