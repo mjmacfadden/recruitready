@@ -86,7 +86,7 @@ const contentArray = [
     `,
   },
   {
-    id: 5,
+    id: ,
     image:
       "<img src='img/athletes/gymnast.jpg' class='img-fluid' alt='Ryan Mitchel'>",
     name: "<h2>Ryan Mitchel</h2>",
