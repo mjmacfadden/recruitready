@@ -5,7 +5,7 @@ const contentArray = [
       "<img src='img/athletes/mary_grace_reynolds.webp' class='img-fluid' alt='Mary Grace Reynolds'>",
     name: "<h2>Mary Grace Reynolds</h2>",
     university: "<h3>Tufts University</h3>",
-    division: "<h3>D1</h3>",
+    division: "<h3>D3</h3>",
     sport: "<h3>Lacrosse</h3>",
     paragraph:
       "<p>Mary Grace graduated from Tufts University in 2023 and competed on the Women’s Lacrosse Team. Mary Grace brings a wealth of experience in a high-performing program, having competed in two National Championships and three NESCAC conference championships during her career. Despite the dual demands of athletics and academics, she excelled at both, setting and achieving the highest standards for herself on and off the field.</p><p>Hailing from the Chicago suburbs, Mary Grace navigated the recruiting process and was able to capture the attention of prestigious schools on the East Coast – the region that most dominates her sport. Her experiences both in the recruiting space and as a collegiate athlete lend her invaluable insights as a mentor for future recruits.</p>",
