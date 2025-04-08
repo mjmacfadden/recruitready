@@ -69,11 +69,11 @@
           <li class="nav-item">
             <a class="nav-link" href="about.php">About</a>
           </li>
-          <li class="nav-item me-4">
+          <!--<li class="nav-item me-4">
             <a class="nav-link" href="contact.php">Contact</a>
-          </li>
+          </li>-->
         </ul>
-        <button class="btn btn-outline-danger" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Request Invite</button>
+        <button class="btn btn-outline-danger" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Mentor Sign Up</button>
       </div>
     </div>
   </nav>

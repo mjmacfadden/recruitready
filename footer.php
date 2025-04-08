@@ -19,8 +19,10 @@
         <div class="col-md-4 mb-3">
           <h5>Contact Us</h5>
           <ul class="list-unstyled">
-            <li><a href="mailto:recruitready@gmail.com" class="text-light" target="_blank"><i class="bi bi-envelope"></i> recruitreadyathletics@gmail.com</a></li>
-            <li><a href="https://www.instagram.com/recruit_ready" class="text-light" target="_blank"><i class="bi bi-instagram"></i> Instagram</a></li>
+            <li><a href="mailto:admin@recruitreadyathletics.com" class="text-light" target="_blank"><i class="bi bi-envelope"></i> admin@recruitreadyathletics.com</a></li>
+            <li><a href="https://www.instagram.com/recruitreadyathletics" class="text-light" target="_blank"><i class="bi bi-instagram"></i> Instagram</a></li>
+            <li><a href="https://www.linkedin.com/company/recruitreadyathletics/about/" class="text-light" target="_blank"><i class="bi bi-linkedin"></i> LinkedIn</a></li>
+
           </ul>
         </div>
         
