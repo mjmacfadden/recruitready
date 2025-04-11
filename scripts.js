@@ -11,45 +11,35 @@ const contentArray = [
       "<p>Mary Grace graduated from Tufts University in 2023 and competed on the Women’s Lacrosse Team. Mary Grace brings a wealth of experience in a high-performing program, having competed in two National Championships and three NESCAC conference championships during her career. Despite the dual demands of athletics and academics, she excelled at both, setting and achieving the highest standards for herself on and off the field.</p><p>Hailing from the Chicago suburbs, Mary Grace navigated the recruiting process and was able to capture the attention of prestigious schools on the East Coast – the region that most dominates her sport. Her experiences both in the recruiting space and as a collegiate athlete lend her invaluable insights as a mentor for future recruits.</p>",
     button:
       "<a href='https://calendly.com' target='_blank'><button class='btn btn-danger'>Book Now</button>",
-    socialLinks: `
-      <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook danger"></i></a> 
-      <a href="https://www.twitter.com" target="_blank"><i class="bi bi-instagram danger"></i></a>
-      <a href="https://www.tiktok.com" target="_blank"><i class="bi bi-tiktok danger"></i></a>
-    `,
+    socialLinks: ``,
   },
   {
     id: 2,
     image:
-      "<img src='img/athletes/track_runner.jpg' class='img-fluid' alt='Emily Lawsom'>",
-    name: "<h2>Emily Lawson</h2>",
-    university: "<h3>Oregon University</h3>",
-    division: "<h3>D1</h3>",
+      "<img src='img/athletes/brandon-knieja.jpg' class='img-fluid' alt='Brandon Knieja'>",
+    name: "<h2>Brandon Knieja</h2>",
+    university: "<h3>Flagler College</h3>",
+    division: "<h3>D3</h3>",
     sport: "<h3>Track</h3>",
     paragraph:
-      "<p>Specializing in the 400-meter and 800-meter events, Emily has quickly made a name for herself with her exceptional speed and endurance. A native of Bend, Oregon, she earned a full scholarship to Oregon's prestigious track program after dominating high school state championships, where she set multiple records. Now in her junior year, she is a consistent top performer in the Pac-12, with her eyes set on the NCAA Championships and beyond.</p><p>Off the track, Emily is pursuing a degree in Sports Science and has a passion for advocating for mental health awareness in athletics. Known for her leadership and supportive nature, she serves as a mentor to younger teammates, helping them balance the demands of academics and competition. With Olympic dreams in her sights, Emily's future in track and field looks incredibly bright.</p>",
+      "<p>Brandon Knieja is a senior business major at Flagler College and a standout student-athlete, competing in both track and cross country. Over the course of his collegiate career, he has earned five All-Conference honors and recently claimed first place in the 3000-meter race at the 2025 PBC Indoor Conference Championship. He began his college journey at the University of South Alabama before transferring to Flagler in his sophomore year, a transition that strengthened his leadership skills. Brandon’s experience as a collegiate athlete has instilled in him a strong sense of discipline, drive, and versatility–qualities he brings to both his academic work and professional aspirations.</p>",
     button:
       "<a href='https://calendly.com' target='_blank'><button class='btn btn-danger'>Book Now</button>",
-    socialLinks: `
-      <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook danger"></i></a>
-      <a href="https://www.twitter.com" target="_blank"><i class="bi bi-instagram danger"></i></a>
-    `,
+    socialLinks: ``,
   },
   {
     id: 3,
     image:
-      "<img src='img/athletes/baseball_player.jpg' class='img-fluid' alt='Jake Martinez'>",
-    name: "<h2>Jake Martinez</h2>",
-    university: "<h3>Depaul University</h3>",
-    division: "<h3>D1</h3>",
-    sport: "<h3>Baseball</h3>",
+      "<img src='img/athletes/enola-savel.jpg' class='img-fluid' alt='Enola Savel'>",
+    name: "<h2>Enola Savel</h2>",
+    university: "<h3>Flagler College</h3>",
+    division: "<h3>D3</h3>",
+    sport: "<h3>Track</h3>",
     paragraph:
-      "<p>Jake Martinez is a rising star on the DePaul University baseball team, known for his powerful hitting and sharp fielding at third base. Hailing from San Diego, California, Jake was heavily recruited out of high school after leading his team to a state championship and earning All-State honors. Now a sophomore, he’s made an immediate impact in the Big East Conference with his clutch performances and consistent batting average, quickly becoming a key player for the Blue Demons.</p><p>Jake is studying Business Administration with aspirations of working in sports management after his playing days. When he's not on the diamond, he’s often volunteering with local youth baseball programs, passing on his love for the game to the next generation. With his work ethic and dedication, Jake has his sights set on a future in the MLB, and scouts are already taking notice.</p>",
+      "<p>Enola Savel is a French senior at Flagler College graduating with a double major in International Business and Business Administration. A dedicated student-athlete, she came to the U.S. on an athletic scholarship to compete in both cross country and track. Throughout her four years at Flagler, Enola balanced the rigors of collegiate athletics with the demands of a double major, developing a strong sense of focus, discipline, and determination. Her personal best in the 5K is an impressive 17:40. As she explores career opportunities in business post-graduation, Enola is also passionate about mentoring and supporting future student-athletes as they navigate both academic and athletic challenges.</p>",
     button:
       "<a href='https://calendly.com' target='_blank'><button class='btn btn-danger'>Book Now</button>",
-    socialLinks: `
-      <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook danger"></i></a> 
-      <a href="https://www.twitter.com" target="_blank"><i class="bi bi-instagram danger"></i></a>
-    `,
+    socialLinks: ``,
   },
   {
     id: 4,

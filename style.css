@@ -88,7 +88,7 @@ HOME PAGE
 }
 .image-container {
   width: 100%; /* Fixed width */
-  height: 200px; /* Fixed height */
+  height: 300px; /* Fixed height */
   overflow: hidden; /* Ensures content outside the box is not visible */
 }
 .image-container img {
