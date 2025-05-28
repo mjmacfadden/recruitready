@@ -19,7 +19,7 @@ const contentArray = [
       "<img src='img/athletes/brandon-knieja.jpg' class='img-fluid' alt='Brandon Knieja'>",
     name: "<h2>Brandon Knieja</h2>",
     university: "<h3>Flagler College</h3>",
-    division: "<h3>D2</h3>",
+    division: "<h3>D3</h3>",
     sport: "<h3>Track</h3>",
     paragraph:
       "<p>Brandon Knieja is a senior business major at Flagler College and a standout student-athlete, competing in both track and cross country. Over the course of his collegiate career, he has earned five All-Conference honors and recently claimed first place in the 3000-meter race at the 2025 PBC Indoor Conference Championship. He began his college journey at the University of South Alabama before transferring to Flagler in his sophomore year, a transition that strengthened his leadership skills. Brandon’s experience as a collegiate athlete has instilled in him a strong sense of discipline, drive, and versatility–qualities he brings to both his academic work and professional aspirations.</p>",
@@ -33,7 +33,7 @@ const contentArray = [
       "<img src='img/athletes/enola-savel.jpg' class='img-fluid' alt='Enola Savel'>",
     name: "<h2>Enola Savel</h2>",
     university: "<h3>Flagler College</h3>",
-    division: "<h3>D2</h3>",
+    division: "<h3>D3</h3>",
     sport: "<h3>Track</h3>",
     paragraph:
       "<p>Enola Savel is a French senior at Flagler College graduating with a double major in International Business and Business Administration. A dedicated student-athlete, she came to the U.S. on an athletic scholarship to compete in both cross country and track. Throughout her four years at Flagler, Enola balanced the rigors of collegiate athletics with the demands of a double major, developing a strong sense of focus, discipline, and determination. Her personal best in the 5K is an impressive 17:40. As she explores career opportunities in business post-graduation, Enola is also passionate about mentoring and supporting future student-athletes as they navigate both academic and athletic challenges.</p>",
@@ -69,10 +69,7 @@ const contentArray = [
     paragraph:
       "<p>Ryan Mitchell is a talented gymnast competing for Springfield College in Division III. Hailing from Richmond, Virginia, Ryan began his gymnastics journey at a young age, quickly falling in love with the sport. Known for his exceptional skills on the rings and parallel bars, he has earned multiple accolades in regional competitions and continues to shine on the national stage. Now a sophomore, Ryan is a key member of the Springfield team, consistently contributing to their success with his impressive routines and unwavering determination.</p><p>Ryan is pursuing a degree in Exercise Science, aspiring to work in sports performance and rehabilitation. Off the mat, he dedicates his time to coaching local youth gymnastics programs, inspiring the next generation of athletes. With his commitment to excellence and passion for the sport, Ryan aims to help lead his team to a national championship while paving the way for a successful career in sports.</p>",
     button:
-      "<a href='https://calendly.com' target=button class='btn btn-danger'>Book Now</button>"<!-- Calendly inline widget begin -->
-<div class="calendly-inline-widget" data-url="https://calendly.com/d/cr2z-7gj-rgv?hide_gdpr_banner=1&primary_color=de2033" style="min-width:320px;height:700px;"></div>
-<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-<!-- Calendly inline widget end -->,
+      "<a href='https://calendly.com' target='_blank'><button class='btn btn-danger'>Book Now</button>",
     socialLinks: `
       <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook danger"></i></a> 
       <a href="https://www.twitter.com" target="_blank"><i class="bi bi-instagram danger"></i></a>
